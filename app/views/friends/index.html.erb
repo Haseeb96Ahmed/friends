@@ -10,6 +10,7 @@
       <th>Phone</th>
       <th>Email</th>
       <th>Twitter</th>
+      <th>User ID</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -22,6 +23,7 @@
         <td><%= friend.phone %></td>
         <td><%= friend.email %></td>
         <td><%= friend.twitter %></td>
+        <td><%= friend.user_id %></td>
         <td><%= link_to 'Show', friend, class:"btn btn-primary  btn-sml" %></td>
         <td><%= link_to 'Edit', edit_friend_path(friend), class:"btn btn-primary  btn-sml" %></td>
         <td><%= link_to 'Destroy', friend,class:"btn btn-primary  btn-sml", method: :delete, data: { confirm: 'Are you sure?' } %></td>
